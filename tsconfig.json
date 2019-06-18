@@ -1,0 +1,24 @@
+{
+    "include": [
+        "src/*"
+    ],
+    "exclude": [
+        "dist"
+    ],
+    "compilerOptions": {
+        "outDir": ".",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "experimentalDecorators": true,
+        "module": "es2015",
+        "lib":[
+            "es2015",
+            "dom"
+        ],
+        "target": "es5",
+        "allowJs": false,
+        "alwaysStrict": true,
+        "declaration": false
+    }
+}
